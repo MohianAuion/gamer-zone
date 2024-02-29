@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Header Style */
+/* Nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+nav > ul li{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.nav-title{
+    font-size: 2.5em;
+}
+.fa-gamepad{
+    color: crimson;
+    font-size: 35px;
+}
+#g{
+color: crimson;
+}
+.fa-user-group{
+    color: rgb(131, 22, 22);
+}
+.fa-youtube{
+    color: crimson;
+    font-size: 1.4em; 
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+.last-li{
+   background-color: rgb(219, 216, 216);
+   border-radius: 6px;
+   padding: 4px 10px;
+}
+
+/* Header Div Style */
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 242, 242);
+}
+.header-text{
+   padding-left: 160px; 
+   padding-top: 100px;
+}
+.header-title{
+    font-size: 1.9em;
+    font-weight: 600;
+}
+#goat{
+    font-size: 3.5em;
+    font-weight: 700;
+    color: gold;
+    padding-top: 10px;
+    padding-bottom:15px ;
+}
+.header-text-li{
+    padding-bottom: 10px;
+    color: grey;
+}
+.fa-regular{
+    color: crimson;
+}
+
+.fa-user-group{
+    color: rgb(145, 145, 148);
+}
+.header-btn{
+margin-top: 10px;
+padding:12px 20px;
+border: 0px;
+border-radius:40px;
+margin-right: 15px;
+background-color: red;
+color: whitesmoke;
+}
+.header-btn-two{
+    margin-top: 10px;
+    padding:12px 20px;
+    border: 0px;
+border-radius:40px;
+background-color: chartreuse;
+color:white;
+}
+.header-img{
+    width: 55%;
+    padding-left: 220px;
+}
+
+/* We are Gamer */
+
+.gamer{
+    display: flex;
+    justify-content: end;
+    gap: 80px;
+    margin-right: 250px;
+    padding-top: 80px;
+}
+.gamer-img > img{
+  width: 600px;
+}
+.gamer-text-div{
+    text-align: end;
+}
+.gamer-title{
+    font-size: 2.2em;
+    font-weight: 700;
+    color:rgb(243, 84, 84);
+    padding-bottom: 15px;
+}
+.gamer-para{
+    
+    font-size: 1em;
+    padding-bottom: 15px;
+    color: grey;
+}
+.gamer-btn{
+    font-size: 0.9em;
+background-color:red;
+color: whitesmoke;
+padding:12px 20px;
+border: 0px;
+border-radius: 40px;
+}
+.gamer-footer{
+    font-size:1.2em ;
+    padding-top: 15px;
+    color:gray;
+}
+.gamer-footer-two{
+    font-size:1.6em ;
+}
+
+/* Online Games Style */
+
+.online-games{
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.online-games-text{
+    text-align: center;
+   
+}
+.online-games-title{
+font-size: 2.2em;
+font-weight: 600;
+padding-bottom: 8px;
+}
+.online-games-para{
+    font-size: 0.9em;
+    padding-bottom: 25px;
+}
+#funny-videos{
+    color: red;
+}
+    
+.online-games-card{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.online-games-card > div img:hover{
+    border: 4px solid rgb(100, 247, 16);
+    border-radius: 25px;
+ 
+}
+.online-games-card > div img{
+    width: 200px;
+    
+}
+
+/* Play Games Style */
+
+.play-games{
+    display: flex;
+    margin: 0 150px;
+    
+}
+.play-games-text{
+    margin-right: 160px;
+    padding-left: 80px;
+    padding-top: 110px;
+   
+}
+.play-games-title{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+#play-games-online{
+    color: red;
+}
+.play-games-para{
+color: gray;
+}
+.play-games-img > .horse-img{
+    width: 400px;
+    padding-right: 50px;
+}
+.play-games-img > .cat-img{
+    position: relative;
+    top:-170px;
+    right:80px;
+}
+
+/* Careers Style */
+
+.careers{
+    display: flex;
+    background-color: rgb(211, 55, 159);  
+    margin-bottom: 100px;
+    align-items: center;  
+}
+.careers-text{
+    background-image: url("images/Group\ 14.png");
+    padding-left: 180px;
+    color: white;
+    
+}
+.careers-title{
+    font-size: 1.9em;
+    padding-bottom: 20px;
+}
+.careers-para{
+    font-size: 0.7em;
+    padding-bottom: 20px;
+}
+.careers-li-div{
+    display: flex;
+    
+}
+.careers-li-div > ul  li{
+    list-style: none;
+}
+.careers-ul{
+  padding: 0;
+  padding-bottom: 24px;
+  font-size: 0.9em;
+  color: rgb(216, 214, 214);
+}
+.careers-ul > li{
+    padding-bottom: 12px;
+    
+}
+.careers-ul-two{
+    padding-bottom: 24px;
+    font-size: 0.9em;
+    color: rgb(216, 214, 214);
+    text-align: end;
+}
+.careers-ul-two > li{
+    padding-bottom: 14px;
+}
+.careers-btn{
+    padding: 12px 22px ;
+    border: 0;
+    border-radius: 40px;
+    color: rgb(245, 68, 127);
+}
+
+
+
+/* Game Options Style */
+
+.game-options > ul{
+display: flex;
+justify-content: center;
+list-style: none;
+gap: 60px;
+padding-bottom: 30px;
+
+margin-right: 40px;
+}
+.game-options > ul li:hover{
+    border: 3px solid chartreuse;
+    color: red;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgb(219, 247, 194);
+}
+
+.game-options > ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;   
+}
+.game-options > ul img{
+    width: 50px;
+}
+
+/* Footer Style */
+
+footer{
+    text-align: center;
+    background-color: rgb(1, 1, 56);
+    color: whitesmoke;
+    padding-top: 90px;
+    padding-bottom: 80px; 
+    margin-top: 60px;
+}
+.footer-ul{
+    list-style: none;
+    display: flex;
+   justify-content: center;
+   gap: 24px;
+   font-size: 0.9em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.footer-icons{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   font-size: 20px;
+   padding-bottom: 15px;
+  
+}
+.youtube-icon{
+    color: white;
+}
+.footer-ul-two{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+small{
+    text-align: center;
+    font-size: 0.7em;
+    color: aquamarine;
+}
+
+
+
+
+
+/* Responsive Style */
+@media screen and (max-width:576px) {
+
+    /* Header Style */
+
+nav{
+    flex-direction: column;
+    text-align: center;   
+}
+nav > ul{
+    margin-top: 20px;
+    justify-content: center;
+}
+.header-div{
+    flex-direction: column-reverse;
+    margin-top: 30px;
+}
+.header-text{
+    padding: 0;
+    text-align: center;
+    margin: 50px;
+ }
+.header-img{
+    width: 90%;
+    padding-left: 10px;
+    margin: 0 10px;
+}
+
+/* We are Gamer */
+.gamer{
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    margin: 0 20px;
+}
+.gamer-img{
+    width: 100%;
+}
+.gamer-text-div{
+    text-align: center;
+}
+
+/* Online Games */
+
+.online-games-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+}
+.online-games-card > div img{
+    width: 90%;
+}
+
+/* Play Games */
+
+.play-games{
+    flex-direction: column;
+    margin:0 20px;
+}
+.play-games-text{
+    margin-right:0;
+    padding-left: 0px;
+    padding-top: 110px;
+   
+}
+.play-games-para{
+    padding-bottom: 30px;
+}
+.play-games-img > .horse-img{
+    padding-right: 0px;
+}
+.play-games-img{
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+/* Games Options */
+.game-options > ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Careers */
+
+.careers{
+    flex-direction: column;
+}
+.careers-text{
+    padding-left: 0;
+    padding:15px 25px;
+}
+.careers-img{
+    width: 100%;
+}
+
+
+
+}
